@@ -1,0 +1,104 @@
+          /* Basic Page */
+
+body {
+    font-family: Arial, sans-serif;
+    background: snow;
+    margin: 0;
+    padding: 0;
+    color:midnightblue ;
+}
+
+          /* Navigation Bar */
+nav ul {
+    list-style: none;
+    background:lightskyblue ;
+    padding: 12px;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color:navy ;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:darkblue ;
+    text-decoration: underline;
+}
+
+          /* Header and Headings */
+header, h1, h2, h3{
+    text-align: center;
+    color:royalblue ;
+    margin-top: 20px;
+}
+
+          /* Sections */
+section {
+    background: lightskyblue;
+    margin: 20px auto;
+    padding: 15px;
+    width: 80%;
+    border-radius: 6px;
+}
+
+
+
+         /* Table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    background:white ;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid steelblue;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background:paleturquoise ;
+}
+
+          /* Feedback Page  */
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #eaf2ff;
+    border-radius: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background: #0059b3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+       /* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #e3f2fd;
+    margin-top: 20px;
+}
